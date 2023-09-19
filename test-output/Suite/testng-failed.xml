@@ -5,10 +5,16 @@
     <classes>
       <class name="TestScript.LoginPage">
         <methods>
-          <include name="Openapplication"/>
-          <include name="Testapplication"/>
+          <include name="CloseApp"/>
         </methods>
       </class> <!-- TestScript.LoginPage -->
+      <class name="TestScript.PreAdm_HomePage">
+        <methods>
+          <include name="Test"/>
+          <include name="Openapplication"/>
+          <include name="CloseApp"/>
+        </methods>
+      </class> <!-- TestScript.PreAdm_HomePage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

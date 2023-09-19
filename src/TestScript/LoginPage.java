@@ -3,15 +3,21 @@ package TestScript;
 import org.testng.annotations.Test;
 
 import Generic.BaseClass;
+import PomClass.LoginPom;
+import PomClass.PreAdHome_PomClass;
+
 
 public class LoginPage extends BaseClass
 {
    @Test
-   public void Testapplication()
+   public static void Testapplication()
    {
-	   PomClass Pm = new PomClass(driver);
+	   LoginPom Pm = new LoginPom(driver);
 	   Pm.getUsername().sendKeys("radha");
 	   Pm.getPassword().sendKeys("Password@1234");
 	   Pm.getSignbuuton().click();
    }
+   
+
+
 }
