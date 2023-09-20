@@ -14,8 +14,7 @@ public class PreAdm_HomePage extends BaseClass
 	   PreAdHome_PomClass pm = new PreAdHome_PomClass(driver);
 	   pm.getPreadmission().click();
 	   Thread.sleep(5000);
-	   pm.getApplicationform().click();
-	   pm.getApplicationformsub().click();
+	  
 	   
 	   
    }

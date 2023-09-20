@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-14T09:50:10 IST" name="Suite" finished-at="2023-09-14T09:50:36 IST" duration-ms="25129">
+  <suite started-at="2023-09-20T09:38:52 IST" name="Suite" finished-at="2023-09-20T09:39:26 IST" duration-ms="33691">
     <groups>
     </groups>
-    <test started-at="2023-09-14T09:50:10 IST" name="Test" finished-at="2023-09-14T09:50:36 IST" duration-ms="25129">
+    <test started-at="2023-09-20T09:38:52 IST" name="Test" finished-at="2023-09-20T09:39:26 IST" duration-ms="33691">
       <class name="TestScript.PreAdm_HomePage">
-        <test-method signature="Test()[pri:0, instance:TestScript.PreAdm_HomePage@771a660]" started-at="2023-09-14T09:50:24 IST" name="Test" finished-at="2023-09-14T09:50:36 IST" duration-ms="11086" status="PASS">
+        <test-method signature="Test()[pri:0, instance:TestScript.PreAdm_HomePage@2d52216b]" started-at="2023-09-20T09:39:05 IST" name="Test" finished-at="2023-09-20T09:39:15 IST" duration-ms="10786" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
       </class> <!-- TestScript.PreAdm_HomePage -->
+      <class name="TestScript.Application_form">
+        <test-method signature="Test()[pri:0, instance:TestScript.Application_form@242b836]" started-at="2023-09-20T09:39:15 IST" name="Test" finished-at="2023-09-20T09:39:26 IST" duration-ms="10588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- TestScript.Application_form -->
       <class name="TestScript.LoginPage">
-        <test-method is-config="true" signature="Openapplication()[pri:0, instance:TestScript.LoginPage@72e5a8e]" started-at="2023-09-14T09:50:10 IST" name="Openapplication" finished-at="2023-09-14T09:50:24 IST" duration-ms="13630" status="PASS">
+        <test-method is-config="true" signature="Openapplication()[pri:0, instance:TestScript.LoginPage@54e1c68b]" started-at="2023-09-20T09:38:52 IST" name="Openapplication" finished-at="2023-09-20T09:39:04 IST" duration-ms="11866" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Openapplication -->
-        <test-method signature="Testapplication()[pri:0, instance:TestScript.LoginPage@72e5a8e]" started-at="2023-09-14T09:50:24 IST" name="Testapplication" finished-at="2023-09-14T09:50:24 IST" duration-ms="361" status="PASS">
+        <test-method signature="Testapplication()[pri:0, instance:TestScript.LoginPage@54e1c68b]" started-at="2023-09-20T09:39:04 IST" name="Testapplication" finished-at="2023-09-20T09:39:05 IST" duration-ms="380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testapplication -->

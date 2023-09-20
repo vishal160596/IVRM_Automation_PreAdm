@@ -3,18 +3,18 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="TestScript.LoginPage">
-        <methods>
-          <include name="CloseApp"/>
-        </methods>
-      </class> <!-- TestScript.LoginPage -->
       <class name="TestScript.PreAdm_HomePage">
         <methods>
           <include name="Test"/>
           <include name="Openapplication"/>
-          <include name="CloseApp"/>
         </methods>
       </class> <!-- TestScript.PreAdm_HomePage -->
+      <class name="TestScript.Application_form">
+        <methods>
+          <include name="Openapplication"/>
+          <include name="Test"/>
+        </methods>
+      </class> <!-- TestScript.Application_form -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
