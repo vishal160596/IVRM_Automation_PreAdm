@@ -6,8 +6,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPom 
-{
-    @FindBy(id = "login-username")
+{   
+	
+	
+	@FindBy(xpath="//input[@id='login-username']") 
     private WebElement username;
     
     @FindBy(id ="login-password")

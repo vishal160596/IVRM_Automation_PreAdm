@@ -14,7 +14,7 @@ public class LoginPage extends BaseClass
    {
 	   LoginPom Pm = new LoginPom(driver);
 	   Pm.getUsername().sendKeys("radha");
-	   Pm.getPassword().sendKeys("Password@1234");
+	   Pm.getPassword().sendKeys("Password@123");
 	   Pm.getSignbuuton().click();
    }
    

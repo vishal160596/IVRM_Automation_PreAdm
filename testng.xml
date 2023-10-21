@@ -4,8 +4,10 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="TestScript.LoginPage"/>
+      <class name="TestScript.Documentview"/>
       <class name="TestScript.PreAdm_HomePage"/>
       <class name="TestScript.Application_form"/>
+      <class name="TestScript.PreadmissionStatus"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

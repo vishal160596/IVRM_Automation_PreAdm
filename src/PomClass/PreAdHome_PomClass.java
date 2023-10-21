@@ -9,7 +9,7 @@ import TestScript.LoginPage;
 
 public class PreAdHome_PomClass
 {
-    @FindBy(xpath = "//span[text()='Preadmission']")
+   @FindBy(xpath = "//span[text()='Preadmission']")
     private  WebElement Preadmission;
     
       
@@ -22,6 +22,7 @@ public class PreAdHome_PomClass
 	{
 		return Preadmission;
 	}
+
 
 	
     
